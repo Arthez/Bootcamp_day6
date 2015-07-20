@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pl.droidsonroids.letmetakeaselfie.ui.widget.SelfieView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/selfie_height"
+        android:contentDescription="@string/content_description_photo"
+        android:scaleType="center"
+        tools:src="@drawable/ic_face_black_36dp"/>
+
+    <TextView
+        android:id="@+id/text_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:paddingLeft="@dimen/margin_normal"
+        android:paddingTop="@dimen/margin_small"
+        android:paddingRight="@dimen/margin_normal"
+        android:paddingBottom="@dimen/margin_small"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        tools:text="Selfie by: Test"/>
+
+</pl.droidsonroids.letmetakeaselfie.ui.widget.SelfieView>

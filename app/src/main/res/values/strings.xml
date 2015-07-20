@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Let me take a selfie!</string>
+
+    <!-- UI -->
+    <string name="selfie_by">Selfie by: %s</string>
+
+    <!-- Dialog -->
+    <string name="type_your_name">Type your name:</string>
+    <string name="invalid_username">Username should have at least one letter!</string>
+    <string name="send_selfie">Send selfie!</string>
+    <string name="cancel_selfie">I\'ve changed my mind.</string>
+
+    <!-- Errors -->
+    <string name="selfies_load_error">Couldn\'t load selfies :(</string>
+    <string name="selfie_upload_error">Couldn\'t upload selfie :(</string>
+    <string name="cant_open_camera">Couldn\'t open camera!</string>
+
+    <!-- Content desc -->
+    <string name="content_description_photo">Photo</string>
+</resources>
